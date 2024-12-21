@@ -4,7 +4,7 @@ import Foundation
 import PackageDescription
 
 extension String {
-    static let hotjar: Self = "CoenttbHotjar"
+    static let hotjar: Self = "Hotjar"
 }
 
 extension Target.Dependency {
