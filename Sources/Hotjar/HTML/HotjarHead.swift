@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import HTML
+import Coenttb_Web
 
 public struct HotjarHead: HTML {
     let id: String

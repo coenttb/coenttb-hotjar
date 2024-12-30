@@ -6,11 +6,13 @@
 //
 
 import Foundation
-import MemberwiseInit
 
-extension Client {
-    @MemberwiseInit(.public)
+extension Hotjar.Client {
     public struct EnvVars: Codable {
         public var id: String
+        
+        public init(id: String) {
+            self.id = id
+        }
     }
 }
